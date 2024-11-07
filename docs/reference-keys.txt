@@ -1,0 +1,9 @@
+fig:nice-fig
+tab:nice-tab
+简介
+jamovi
+方差分析
+简单效应分析
+t检验
+额外模块推荐
+zotero
