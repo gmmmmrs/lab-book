@@ -1,0 +1,21 @@
+--- 
+title: "Face lab book"
+author: "Face lab"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: haiyangjin/lab-book
+description: "This is the lab book of Face Lab."
+---
+
+# 简介
+
+这是面孔实验室的实验手册，目前主要尝试介绍一些常用的软件或技术。
+
+实验室目前常用的软件有：  
+- Chapter \@ref(jamovi): Jamovi  
+- Chapter \@ref(zotero): Zotero
