@@ -6,14 +6,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Chapter 2 Jamovi | Face lab book</title>
 <meta name="author" content="Face lab">
-<meta name="description" content="汇总：沈佳欣、张宇杰 更新于：2024 Nov 07  2.1 方差分析 导入数据后，依次点击“分析”“方差分析”选项，然后在弹出的选项栏中选择适当的方差分析方法。前五个为参数检验方法，后两个为非参数检验方法，它们分别对应统计课本中的克-瓦氏单向方差分析和弗里德曼两因素等级方差分析。 jamovi_anova...">
+<meta name="description" content="汇总：沈佳欣、张宇杰 更新于：2024 Nov 07  2.1 方差分析 导入数据后，依次点击“分析”“方差分析”选项，然后在弹出的选项栏中选择适当的方差分析方法。前五个为参数检验方法，后两个为非参数检验方法，它们分别对应统计课本中的克-瓦氏单向方差分析和弗里德曼两因素等级方差分析。...">
 <meta name="generator" content="bookdown 0.40 with bs4_book()">
 <meta property="og:title" content="Chapter 2 Jamovi | Face lab book">
 <meta property="og:type" content="book">
-<meta property="og:description" content="汇总：沈佳欣、张宇杰 更新于：2024 Nov 07  2.1 方差分析 导入数据后，依次点击“分析”“方差分析”选项，然后在弹出的选项栏中选择适当的方差分析方法。前五个为参数检验方法，后两个为非参数检验方法，它们分别对应统计课本中的克-瓦氏单向方差分析和弗里德曼两因素等级方差分析。 jamovi_anova...">
+<meta property="og:description" content="汇总：沈佳欣、张宇杰 更新于：2024 Nov 07  2.1 方差分析 导入数据后，依次点击“分析”“方差分析”选项，然后在弹出的选项栏中选择适当的方差分析方法。前五个为参数检验方法，后两个为非参数检验方法，它们分别对应统计课本中的克-瓦氏单向方差分析和弗里德曼两因素等级方差分析。...">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Chapter 2 Jamovi | Face lab book">
-<meta name="twitter:description" content="汇总：沈佳欣、张宇杰 更新于：2024 Nov 07  2.1 方差分析 导入数据后，依次点击“分析”“方差分析”选项，然后在弹出的选项栏中选择适当的方差分析方法。前五个为参数检验方法，后两个为非参数检验方法，它们分别对应统计课本中的克-瓦氏单向方差分析和弗里德曼两因素等级方差分析。 jamovi_anova...">
+<meta name="twitter:description" content="汇总：沈佳欣、张宇杰 更新于：2024 Nov 07  2.1 方差分析 导入数据后，依次点击“分析”“方差分析”选项，然后在弹出的选项栏中选择适当的方差分析方法。前五个为参数检验方法，后两个为非参数检验方法，它们分别对应统计课本中的克-瓦氏单向方差分析和弗里德曼两因素等级方差分析。...">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.8.0/transition.js"></script><script src="libs/bs3compat-0.8.0/tabs.js"></script><script src="libs/bs3compat-0.8.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
@@ -88,41 +88,27 @@
 <span class="header-section-number">2.1</span> 方差分析<a class="anchor" aria-label="anchor" href="#%E6%96%B9%E5%B7%AE%E5%88%86%E6%9E%90"><i class="fas fa-link"></i></a>
 </h2>
 <p>导入数据后，依次点击“分析”“方差分析”选项，然后在弹出的选项栏中选择适当的方差分析方法。前五个为参数检验方法，后两个为非参数检验方法，它们分别对应统计课本中的克-瓦氏单向方差分析和弗里德曼两因素等级方差分析。</p>
-<div class="float">
-<img src="img/jamovi/anova.png" alt="jamovi_anova"><div class="figcaption">jamovi_anova</div>
-</div>
+<div class="inline-figure"><img src="img/jamovi/anova.png"></div>
 <p>此次以重复测量方差分析为例。在下图左侧的界面里，左侧是我们数据的名称，右侧的“重复测量因子”是指在研究中设置的“被试内自变量”。在本例中，我们有三个“被试内自变量”，每个自变量都有两个水平。例如我们将“重复测量因子1”定义为Familiar，它包括“familiar”和“unfamiliar”两个水平。</p>
-<p><img src="img/jamovi/rmanova-factor.png" alt="jamovi_rmanova-factor"><br><img src="img/jamovi/rmanova-factorlevels.png" alt="jamovi_rmanova-factorlevels"></p>
+<p><img src="img/jamovi/rmanova-factor.png"><br><img src="img/jamovi/rmanova-factorlevels.png"></p>
 <p>定义好重复测量因子后，“重复测量单元”中会出现各个自变量水平的组合，而“重复测量单元”也就是指研究中的各种实验条件。在本例中我们的实验是一个2 * 2 * 2的被试内设计，所以共有8种实验条件，我们需要做的是将数据拖入其对应的重复测量单元中。</p>
-<div class="float">
-<img src="img/jamovi/rmanova-factorlevels2.png" alt="jamovi_rmanova-factorlevels2"><div class="figcaption">jamovi_rmanova-factorlevels2</div>
-</div>
+<div class="inline-figure"><img src="img/jamovi/rmanova-factorlevels2.png"></div>
 <p>接下来我们要选择效应量为“偏η²值”，以及确定因变量标签。本例中因变量标签为“d-prime”.</p>
-<div class="float">
-<img src="img/jamovi/rmanova-dv.png" alt="jamovi_rmanova-dv"><div class="figcaption">jamovi_rmanova-dv</div>
-</div>
+<div class="inline-figure"><img src="img/jamovi/rmanova-dv.png"></div>
 <p>下面的五个选项里，我们应当关注的主要是“适用条件判断”和“事后检验”。</p>
-<div class="float">
-<img src="img/jamovi/rmanova-sphericity.png" alt="jamovi_rmanova-sphericity"><div class="figcaption">jamovi_rmanova-sphericity</div>
-</div>
+<div class="inline-figure"><img src="img/jamovi/rmanova-sphericity.png"></div>
 <p>对本专业来说，在这一栏中较为重要的是“方差齐性检验”，如果变量中涉及被试间变量，那么应当进行方差齐性检验。但由于本例中的变量都是被试内变量，所以无需进行方差齐性检验。其他几个选项可以根据研究所需进行选取。</p>
 <p>所有设定完成后，jamovi会在右侧呈现数据分析结果。</p>
-<div class="float">
-<img src="img/jamovi/rmanova-result.png" alt="jamovi_rmanova-result"><div class="figcaption">jamovi_rmanova-result</div>
-</div>
+<div class="inline-figure"><img src="img/jamovi/rmanova-result.png"></div>
 </div>
 <div id="简单效应分析" class="section level2" number="2.2">
 <h2>
 <span class="header-section-number">2.2</span> 简单效应分析<a class="anchor" aria-label="anchor" href="#%E7%AE%80%E5%8D%95%E6%95%88%E5%BA%94%E5%88%86%E6%9E%90"><i class="fas fa-link"></i></a>
 </h2>
 <p>这一部分承接上述重复测量方差分析。在本例中，当我们在jamovi中确定好了“重复测量因子”即“被试内变量”和“重复测量单元”即“实验条件”后，我们可以看到右侧的结果栏中就可以呈现统计结果，如果某两个或几个变量之间存在显著的交互作用，那么我们应当进行事后检验，以确定一个变量在与它有交互作用的另一个变量的哪些水平上显著，哪些水平上不显著。我们需要选择下列五个选项中的“事后检验”。</p>
-<div class="float">
-<img src="img/jamovi/rmanova-posthoc.png" alt="jamovi_posthoc"><div class="figcaption">jamovi_posthoc</div>
-</div>
+<div class="inline-figure"><img src="img/jamovi/rmanova-posthoc.png"></div>
 <p>选择需要进行事后检验的交互变量，并按照需要选择恰当的校正方法。</p>
-<div class="float">
-<img src="img/jamovi/rmanova-posthoc-results.png" alt="jamovi_posthoc-results"><div class="figcaption">jamovi_posthoc-results</div>
-</div>
+<div class="inline-figure"><img src="img/jamovi/rmanova-posthoc-results.png"></div>
 <p>右侧生成的结果的最右边两列就是jamovi按照我们选择的Tukey法和Bonferron法计算出的统计值。</p>
 </div>
 <div id="t检验" class="section level2" number="2.3">
@@ -133,29 +119,23 @@
 <li>首先，导入数据</li>
 <li>其次，点击选项栏的分析，选择对应的t检验</li>
 </ul>
-<div class="float">
-<img src="img/jamovi/ttest.png" alt="jamovi_ttest"><div class="figcaption">jamovi_ttest</div>
-</div>
+<div class="inline-figure"><img src="img/jamovi/ttest.png"></div>
 <ul>
 <li>接着，选择要分析的变量</li>
 </ul>
-<div class="float">
-<img src="img/jamovi/ttest-compare.png" alt="jamovi_ttest-compare"><div class="figcaption">jamovi_ttest-compare</div>
-</div>
+<div class="inline-figure"><img src="img/jamovi/ttest-compare.png"></div>
 <ul>
 <li>然后，可以按需勾选，描述就是分析数据的均值、标准差、标准误等描述性数据；描述图就是生成图表</li>
 </ul>
-<div class="float">
-<img src="img/jamovi/ttest-results.png" alt="jamovi_ttest-result"><div class="figcaption">jamovi_ttest-result</div>
-</div>
+<div class="inline-figure"><img src="img/jamovi/ttest-results.png"></div>
 </div>
 <div id="额外模块推荐" class="section level2" number="2.4">
 <h2>
 <span class="header-section-number">2.4</span> 额外模块推荐<a class="anchor" aria-label="anchor" href="#%E9%A2%9D%E5%A4%96%E6%A8%A1%E5%9D%97%E6%8E%A8%E8%8D%90"><i class="fas fa-link"></i></a>
 </h2>
-<p><img src="img/jamovi/modules.png" alt="jamovi_modules"><br><img src="img/jamovi/modules-library.png" alt="jamovi_modules-library"></p>
+<p><img src="img/jamovi/modules.png"><br><img src="img/jamovi/modules-library.png"></p>
 <p>可以通过jamovi官网下载自己所需要的库。这是网址：<a href="https://www.jamovi.org/library.html" class="uri">https://www.jamovi.org/library.html</a></p>
-<p><img src="img/jamovi/modules1.png" alt="jamovi_modules-1"><br><img src="img/jamovi/modules2.png" alt="jamovi_modules-2"><br><img src="img/jamovi/modules3.png" alt="jamovi_modules-3"><br><img src="img/jamovi/modules4.png" alt="jamovi_modules-4"></p>
+<p><img src="img/jamovi/modules1.png"><br><img src="img/jamovi/modules2.png"><br><img src="img/jamovi/modules3.png"><br><img src="img/jamovi/modules4.png"></p>
 
 </div>
 </div>
