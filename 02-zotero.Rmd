@@ -3,3 +3,134 @@
 汇总：郭沫然  
 更新于：`r format(Sys.Date(), '%Y %b %d')`
 
+# 基础功能
+## zotero是做什么的
+Zotero是一个参考文献管理器。用来存储、管理和引用参考文献，比如书籍、文章和期刊等。在Zotero中，将每一个文献作为一个条目储存，每一个条目当中可以包含与之相关的其他多种信息和附加条目。广泛地说，Zotero是收集和组织研究信息和资源的工具。
+可以储存并管理的条目类型广泛，几乎可以是任何东西，包括书籍、文章、报告、网页、艺术品、电影、信件、手稿、录音、账单、案例或法规等等。
+
+![](img/zotero/zotero_workInform.png)
+
+![](img/zotero/zotero_interface.png)
+
+通常储存的条目显示在Zotero的中心列表中。条目的相关信息显示在右列表中。包括标题、创建者、出版商、日期、页码以及引用条目所需的任何其他数据。
+
+![](img/zotero/zotero_worktype.png)
+
+## 用于管理条目的功能
+### 文件夹：
+右键单击“我的图书馆”或单击左侧窗格上方的“新收藏”按钮，以创建一个文件夹，可以用来分类存放文献条目。同一个条目可以同时属于多个收藏夹。
+
+![](img/zotero/zotero_list.png)
+
+### 标签：
+标签是自己命名的。可以对每一个条目根据需要分配多少个标签。使用左侧列表底部的标签选择器或通过右侧信息列表中的标签选项卡添加或删除标签。标签的颜色一共有六个。在阅读文献的过程中不断地为文献添加标签，可以更好管理文献，配合上搜索功能，可以提高对于文献的管理效率。
+
+![](img/zotero/zotero_tag.png)
+
+### 搜索功能以及对搜索的储存：
+Zotero支持对条目进行快速搜索，包括储存条目的信息数据，标签，或全文内容匹配搜索等，在Zotero工具栏中找到搜索选项。点击搜索框图标会打开高级搜索列表，允许进行更复杂或更窄范围的搜索。另外高级搜索结果可以保存在左侧条目列表中，类似于一个集合，会自动更新新的匹配条目。
+
+![](img/zotero/zotero_search.png)
+
+## 储存条目及其附件
+### 附件及其类型：
+条目可以附加注释、文件和链接等附件。这些附件会列在条目下方的列表中。通过点击条目旁边的箭头可以显示或隐藏附件。任何类型的文件都可以附加到条目中。使用Zotero工具栏中的“添加附件(回形针)”按钮，通过右键点击条目或者通过拖放来添加附件。当在浏览器中使用Zotero连接器导入条目时，也可以自动下载相关文件，如文献的PDF原文或是相关网页等。
+
+![](img/zotero/zotero_attachment.png)
+
+### 从浏览器行直接导入条目：
+使用Chrome、Firefox或Edge的Zotero连接器，可以很轻松地从网页上将文献导入Zotero中从而创建新的储存条目。只需点击连接器按钮，Zotero就可以自动创建适当类型的条目并识别和填充条目的相关信息字段。
+
+![](img/zotero/zotero_connector.png)
+
+### 网页保存：
+如果Zotero连接器不能识别页面上的数据，它仍然可以将文献的页面保存为带有网页快照附加的储存网页的条目。虽然这样会保存基本的信息数据(标题、URL、访问日期等)，但还是需要手动填写额外的信息以及附件。
+
+![](img/zotero/zotero_websave.png)
+
+### 按标识符添加条目：
+Zotero可以使用ISBN号、数字对象标识符(DOI)或PubMed ID自动添加条目。通过在Zotero工具栏中单击按标识符添加项来完成。这个功能甚至可以一次性粘贴或输入多个标识符的列表。
+
+![](img/zotero/zotero_IDsearch.png)
+
+### 手动添加：
+以通过单击Zotero工具栏中的New Item按钮并选择适当的项类型来手动添加条目。然后可以在右侧信息列表中手动添加相关信息。虽然通常不建议手动添加，但对于无法在线获得的文献来说可能很有用。
+
+![](img/zotero/zotero_savebyhand.png)
+
+## 对文献条目的引用
+### 在文章中添加引用：
+Zotero的Word插件允许用户直接从Word中插入引文信息。通过进入Word上方工具栏中的“Zotero”，点击Add/Edit Citation来使用，而后在出现的输入框中搜索确定要插入的文献。这个功能使我们在写文章时可以很方便的随时引用多个文献信息。对于文本、脚注和尾注的引用都是支持的。
+### 自动生成参考文献书目：
+使用Zotero在Word中的插件点击Add/Edit Bibliography可以根据引用的文献自动生成参考书目。 
+
+![](img/zotero/zotero_citation.png)
+
+## 同步与小组协作功能
+### 数据同步：
+Zotero可以在多台计算机中同步用户数据。库中的条目和笔记通过Zotero服务器同步。同步到Zotero服务器的条目可以通过zotero.org帐户在线访问。并且还可以与他人共享自己的数据库，或根据选定的条目创建自定义简历。在zotero.org上为读者、公众和其他使用自己出版物或发表的期刊的研究人员提供研究副本。
+### 小组文库：
+Zotero用户可以创建协作或兴趣小组。通过共享的小组数据库，我们可以通过在线的和通过Zotero客户端来协作管理研究资源和材料。
+
+![](img/zotero/zotero_groupwork.png)
+
+# 拓展插件
+## 插件安装方法：
+在Zotero工具栏中：工具-附加组件（或“插件”-Plugins），选择下载好的插件。（注意：下载与Zotero版本兼容的插件，最近新更新的zotero7版本的，好多6版本的插件都用不了）
+
+![](img/zotero/zotero_plugins.png)
+
+## 常用插件介绍（基于zotero 6版本的）
+### jasminum茉莉花
+参考网址：https://gitcode.com/mirrors/l0o0/jasminum/tree/master
+功能：拆分或合并 Zotero 中条目作者姓和名；
+根据知网上下载的文献文件来抓取引用信息（就是根据文件名）；
+添加中文PDF/CAJ时，自动拉取知网数据，该功能默认关闭。需要到设置中开启，注意添加的文件名需要含有中文，全英文没有效果（还是根据文件名）；
+为知网的学位论文 PDF 添加书签；
+更新中文 translators；
+拉取文献引用次数，是否核心期刊
+
+### zotero-style
+参考网址：https://gitcode.com/mirrors/muisedestiny/zotero-style/tree/master
+功能：摘要标题，Ctrl+点击翻译为中文（前提是安装翻译插件）；
+摘要更易读；
+Open in 可以快速查看各大数据库对文献的展示，比如 ResearchGate 会展示文献的参考文献和引用该文献的文献，以及引用时的上下文。这对某一研究领域探索性研究很有帮助；
+展示笔记预览，展示PDF标注预览；
+展示期刊标签、被引数标签和标签
+
+### zotero-tag
+参考网址：https://github.com/windingwind/zotero-actions-tags
+功能：允许用户为文献添加标签以便更好地组织和分类，通过给文献添加标签，用户可以根据不同的标签快速找到特定的文献，并进行相关的管理和工作。
+
+### zotero-pdf-translate
+参考网址：https://zotero.yuque.com/staff-gkhviy/pdf-trans?
+功能：进行文献翻译。
+
+### zotero-pdf-preview
+参考网址：https://gitcode.com/mirrors/windingwind/zotero-pdf-preview
+功能：在不打开文献进行预览。
+
+### zoteroQuickLookReload
+参考网址：https://gitcode.com/mirrors/tefkah/zotero-night/overview
+功能：换皮肤，变成深夜模式。
+
+### zotero-shortdoi
+参考网址：https://gitcode.com/mirrors/bwiernik/zotero-shortdoi/overview
+功能：使用CrossRef API 自动获取期刊文章的DOI名称，以及使用http://shortdoi.org
+查找短DOI名称。该附加组件还验证存储的DOI是否有效并标记无效DOI。
+
+### zotfile
+参考网址：https://gitcode.com/mirrors/lychichem/zotfile/overview
+功能：管理附件：自动重命名、移动PDF（或其他文件）并将其附加到Zotero项
+目，将Zotero库中的PDF同步到（移动）PDF阅读器（例如iPad、Android平板电脑等）。并从PDF文件中提取注释。
+
+### zotero-reference
+参考网址：https://gitcode.com/mirrors/muisedestiny/zotero-reference/overview
+功能：帮助用户在写作时快速引用文献。
+
+### zotero-better-notes
+参考网址：https://zotero.yuque.com/staff-gkhviy/better-notes/gw5d7v
+功能：提高做笔记的效率。
+
+
+（PS: 关于Zotero 7版本的介绍可以参见这个博客：Zotero 7.0正式版，大更新！_zotero7.0-CSDN博客）
